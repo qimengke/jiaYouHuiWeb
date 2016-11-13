@@ -1,0 +1,379 @@
+/*网站首页*/
+@charset "utf-8";
+*{
+	margin:0px;
+	padding:0px;
+}
+html,body,ul,li,ol,dl,dd,dt,p,h1,h2,h3,h4,h5,h6,form,fieldset,legend,img{margin:0;padding:0;}
+fieldset,img{border:none;}
+img{display: block;}
+address,caption,cite,code,dfn,th,var{font-style:normal;font-weight:normal;}
+ul,ol{list-style:none;}
+body{color:#333;font:12px/20px "SimSun","����","Arial Narrow",HELVETICA;background:#fff; overflow-y:scroll; overflow-x:hidden;}
+a{color:#666;text-decoration:none;}
+a:visited{color:#666;}
+a:hover,a:active,a:focus{color:#ff8400;text-decoration:none;}
+html,body{
+	wight:100%;
+	height:100%;
+	color: #343841;
+}
+
+/*----------------------轮播图部分-----------*/
+#Carousel{
+	width:100%;
+	position:relative;
+	height:370px;
+	
+}
+#Carousel .Carouselimgs{ 
+	height:370px;
+	overflow: hidden;
+}
+
+#Carousel .Carouselimgs li a{
+	height:370px;
+}
+#Carousel .submit{
+	display: block;
+	position:absolute;
+	left:800px;
+	top:330px;
+	height:27px;
+	width:68px;
+	border-radius:10px;
+	padding-top: 4px;
+	padding-left: 12px;;
+	background:rgba(0,0,0,0.6);
+}
+#Carousel .submit .sublist li span{
+	display: block;
+	width:23px;
+	height:23px;
+	margin-right:6px; ;
+	border-radius:50%;
+	float:left;
+	cursor: pointer;
+}
+#Carousel .submit .sublist li .color{
+	background: #FF7D01;
+}
+#Carousel .submit .sublist li .othercolor{
+	background: #F7F7F7;
+}
+#Carousel .page{
+	display: block;
+	position:absolute;
+	right:356px;
+	top:0px;
+	width:300px;
+	height:370px;
+}
+#Carousel .page .pageone{
+	width:300px;
+	background: #FFFFFF;
+}
+#Carousel .page .pagetwo{
+	width:290px;
+	height:93px;
+	padding-left: 10px;;
+	background: #FFFFFF;
+}
+#Carousel .page .pagetwo li{
+	margin-right: 4px;
+	float:left;
+}
+/*-----------------------网页固定的部分------------------------*/
+.footfiximg{
+	width:100px;
+	height:146px;
+	
+	position:fixed;
+	right:50px;
+	bottom:100px;
+}
+.footfiximg a{
+	display: block;
+	width:100px;
+	height:146px;
+}
+.centerfiximg{
+	width:59px;
+	position:fixed;
+	bottom:300px;
+	right:50px;
+}
+.centerfiximg li{
+	width:59px;
+	
+}
+.centerfiximg .rules{
+	position:relative;
+}
+.centerfiximg li span.first{
+	margin-bottom: 6px;
+	text-align: center;
+	display: block;
+	cursor:pointer;
+}
+.centerfiximg li span.second{
+	margin-bottom: 6px;
+	text-align: center;
+	display:none;
+	cursor:pointer;
+}
+/*-----------------------TV直播------------------------*/
+
+#tvs{
+	width:100%;
+	height:90px;
+	background:#F0F1F3;
+	padding-top: 40px;
+}
+#tvs .tv{
+	width:1263px;
+	height:90px;
+	margin:0 auto;
+	
+	
+}
+#tvs .tv img{
+	width:125px;
+	height:40px;
+	float:left;
+}
+#tvs .tv .TVline{
+	float:left;
+	width:989px;
+	height:40px;
+	background:url(../img/img/首页_r25_c11.png)	repeat-x;
+}
+#tvs .tv .more{
+	display: block;
+	float:left;
+	width:110px;
+	height:35px;
+	line-height: 35px;
+	text-align: center;
+}
+/*------------------------商品--------------------*/
+
+#goods{
+	width:100%;
+	height:1792px;
+	background:#F0F1F3;
+}
+#goods .firstgoods{
+	margin:0 auto;
+	width:1263px;
+	height:229px;
+}
+#goods .firstgoods li{
+	margin-right:22px;
+	float:left;
+}
+#goods .firstgoods .firstgoodsone{
+	background: #E1E1E3;
+	width:473px;
+	height:229px;
+}
+#goods .firstgoods .firstgoodsone .firstgoodsoneleft{
+	width:253px;
+	height:229px;
+	float:left;
+}
+#goods .firstgoods .firstgoodsone .firstgoodsoneleft .p1{
+	width:130px;
+	height:42px;
+	text-align: center;
+	line-height: 42px;
+}
+#goods .firstgoods .firstgoodsone .firstgoodsoneleft .span{
+	width:182px;
+	height:41px;
+	display: block;
+	padding-left: 10px;
+	line-height: 41px;
+	color:#FFFFFF;
+	background: url(../img/img/index_tv_time.png);
+	margin-bottom:15px;
+}
+#goods .firstgoods .firstgoodsone .firstgoodsoneleft .p2{
+	width:243px;
+	display: block;
+	height:37px;
+	padding-left: 10px;
+	margin-bottom: 15px;
+}
+#goods .firstgoods .firstgoodsone .firstgoodsoneleft .p3{
+	width:243px;
+	padding-left: 10px;
+	height:12px;
+	margin-bottom: 15px;
+
+}
+#goods .firstgoods .firstgoodsone .firstgoodsoneleft .price{
+	height:35px;	
+}
+#goods .firstgoods .firstgoodsone .firstgoodsoneleft .price li{
+	text-align: center;
+	float:left;
+}
+#goods .firstgoods .firstgoodsone .firstgoodsoneright{
+	
+	height:226px;
+	padding-top: 3px;
+	float:left;
+}
+#goods .firstgoods .firstgoodstwo{
+	width:230px;
+	height:230px;
+	flot:left;
+}
+#goods .secondgoods{
+	margin:0 auto;
+	margin-top: 20px;
+	width:1263px;
+	height:470px;
+}
+#goods .secondgoods .sconsgoodsone{
+	width:240px;
+}
+#goods .secondgoods li{
+	float:left;
+	margin-right:10px;
+}
+#goods .secondgoods .sconsgoodsone{
+	padding-left:6px;
+	padding-right:6px;
+	width:230px;
+	height:470px;
+}
+#goods .secondgoods .sconsgoodsone .homection{
+	height:48px;
+	background:#E3E3E5;
+	margin-bottom: 5px;
+}
+#goods .secondgoods .sconsgoodsone .homection .homectionone{
+	width:89px;
+	height:45px;
+	text-align: center;
+	line-height: 45px;
+	margin-right:92px;
+	float:left;
+	font-size:20px;
+}
+
+#goods .secondgoods .sconsgoodsone .homection .homectiontwo{
+	flaot:left;
+	line-height: 45px;
+	
+}
+#goods .secondgoods .sconsgoodsone .homectionthree{
+	display: block;
+	height:15px;
+	line-height: 20px;
+}
+
+#goods .thirdgoods{
+	margin:0 auto;
+	margin-top: 40px;
+	width:1263px;
+	height:470px;
+}
+#goods .thirdgoods li{
+	float:left;
+	margin-right:10px;
+}
+#goods .thirdgoods .sconsgoodsone{
+	padding-left:6px;
+	padding-right:6px;
+	width:230px;
+	height:470px;
+}
+#goods .fourthgoods{
+	margin:0 auto;
+	margin-top: 40px;
+	width:1263px;
+	height:470px;
+}
+#goods .fourthgoods li{
+	float:left;
+	margin-right:10px;
+}
+#goods .fourthgoods .fourthgoodsone{
+	width:470px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+#goods .fourthgoods .sconsgoodsone{
+	padding-left:6px;
+	padding-right:6px;
+	width:230px;
+	height:470px;
+	
+}
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+/*-------------------底部----------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

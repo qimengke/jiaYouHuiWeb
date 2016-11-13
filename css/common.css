@@ -1,0 +1,242 @@
+@charset "utf-8";
+*{
+	margin:0px;
+	padding:0px;
+}
+html,body,ul,li,ol,dl,dd,dt,p,h1,h2,h3,h4,h5,h6,form,fieldset,legend,img{margin:0;padding:0;}
+fieldset,img{border:none;}
+img{display: block;}
+address,caption,cite,code,dfn,th,var{font-style:normal;font-weight:normal;}
+ul,ol{list-style:none;}
+body{color:#333;font:12px/20px "SimSun","����","Arial Narrow",HELVETICA;background:#fff; overflow-y:scroll; overflow-x:hidden;}
+a{color:#666;text-decoration:none;}
+a:visited{color:#666;}
+a:hover,a:active,a:focus{color:#ff8400;text-decoration:none;}
+html,body{
+	wight:100%;
+	height:100%;
+	color: #343841;
+}
+
+#head,#nav,#navlist{
+	width:100%;
+}
+#head .header,#nav .navs,#navlist .list{
+	margin:0 auto;
+}
+#head,#head .header,#head .header .headerone,#head .header .headertwo li,
+#head .header .headertwo .active{
+	height:30px;
+}
+#head{
+	background:#F7F7F7;
+}
+#head .header{
+	width:1263px;
+}
+#head .header .headerone{
+	display: inline-block;
+	width:114px;
+	text-align: center;
+	line-height: 30px;
+}
+#head .header .headertwo{
+	float:right;
+}
+#head .header .headertwo li{
+	margin-right:11px;
+	float:left;
+	line-height: 30px;
+}
+#head .header .headertwo .active{
+	position:relative;
+	text-align: center;
+	width:75px;
+}
+#head .header .headertwo .actives{
+	margin:0px;
+}
+#head .header .headertwo .active .out{
+	width:340px;
+	height:70px;
+	display: none;
+	position:absolute;
+	padding-top:10px;
+	background:#FFFFFF;
+}
+#head .header .headertwo .active .out img{
+	display: inline-block;
+	width:60px;
+	height:50px;
+	float:left;
+}
+#head .header .headertwo .activec .out span{
+	width:150px;
+	height:80px;
+	line-height: 80px;
+	float:left;
+}
+#nav{
+	height:100px;
+	background:#343841;
+}
+#nav .navs{
+	width:1234px;
+	height:100px;
+	background: #343841;
+	padding-left:29px;
+}
+#nav .navs .navone{
+	margin-top:18px;
+	margin-right:134px;
+	float:left;
+}
+#nav .navs .navtwo{
+	float:left;
+}
+#nav .navs .navtwo li{
+	font-size:20px;
+	line-height: 100px;
+	margin-right:30px;
+	height:100px;
+	float: left;
+}
+#nav .navs .navtwo li a{
+	color:#FFFFFF;
+}
+#nav .navs .navtwo li a:hover{
+	color:orange;
+}
+#nav .navs .write{
+	width:277px;
+	height:39px;
+	float:left;
+	margin-left:38px; 
+	margin-top:30px;
+	border:0px;
+	color:#666666;
+}
+#nav .navs .btn{
+	float:left;
+	margin-top:30px;
+} 
+#navlist{
+	height:30px;
+	background:#FF7D01;
+}
+#navlist .list{
+	width:1224px;
+	padding-left: 39px;;
+}
+#navlist .list li{
+	float:left;
+	margin-right:30px;
+	line-height: 30px;
+}
+#navlist .list li a{
+	color:#FFFFFF;
+}
+
+
+
+
+
+
+
+
+
+
+/*---------------------底部-----------------*/
+
+#footer{
+	width:100%;
+	height:535px;
+	background:#F0F1F3;
+}
+#footer .footline{
+	width:1255px;
+	height:41px;
+	margin: 0 auto;
+	background: url("../img/img/首页_r26_c2.png") repeat-x;
+}
+#footer .footmain{
+	width:1263px;
+	height:229px;
+	margin:0 auto;
+}
+#footer .footmain .smallimg{
+	width:31px;
+	height:229px;
+	float:left;
+	margin-right: 5px;
+}
+#footer .footmain .footlist{
+	height:218px;
+	width:99px;
+	padding-top:11px;;
+	margin-right: 63px;
+	float:left;
+	
+}
+#footer .footmain .footlist li a{
+	width:99px;
+	display: block;	
+	margin-bottom: 12px;;
+	text-align: center;
+	line-height: 22px;
+	
+}
+
+#footer .footmain .footlist li a:hover{
+	color:#FF7D01;	
+}
+#footer .footmain .footlist li .listone{
+	font-size:12px;
+	font-weight:900;
+}
+#footer .footmain .bigimg{
+	float:left;
+	margin-left:20px; 
+}
+#footer .footthid{
+	width:100%;
+	padding-top: 30px;;
+	height:75px;
+	background:#343841;
+}
+#footer .footthid img{
+	margin: 0 auto;
+}
+#footer .friendlist{
+	width:1263px;
+	height:30px;
+	margin:0 auto;
+	margin-top: 15px;
+	
+}
+#footer .friendlist li{
+	margin-right: 10px;
+	line-height: 30px;
+	float:left;
+}
+#footer .foottext{
+	padding-top: 10px;
+	
+	width:1263px;
+	height:25px;
+	
+	margin:0 auto;
+}
+#footer .footimglist{
+	padding-top: 10px;
+	margin-top: 20px;
+	width:1263px;
+	height:45px;
+	margin:0 auto;
+	
+	
+}
+#footer .footimglist li{
+	float:left;
+	margin-right: 14px;
+}

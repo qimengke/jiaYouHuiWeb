@@ -1,0 +1,99 @@
+@charset "utf-8";
+*{
+	margin:0px;
+	padding:0px;
+}
+html,body,ul,li,ol,dl,dd,dt,p,h1,h2,h3,h4,h5,h6,form,fieldset,legend,img{margin:0;padding:0;}
+fieldset,img{border:none;}
+img{display: block;}
+address,caption,cite,code,dfn,th,var{font-style:normal;font-weight:normal;}
+ul,ol{list-style:none;}
+body{color:#333;font:12px/20px "SimSun","����","Arial Narrow",HELVETICA;background:#fff; overflow-y:scroll; overflow-x:hidden;}
+a{color:#666;text-decoration:none;}
+a:visited{color:#666;}
+a:hover,a:active,a:focus{color:#ff8400;text-decoration:none;}
+html,body{
+	width:100%;
+	height:100%;
+	color: #343841;
+}
+.headimg{
+	width:100%;
+	height:88px;
+	background:#FFFFFF;
+}
+.headimg .headimgwelcome{
+	padding-top: 17px;
+	padding-left: 41px;
+	width:1222px;
+	height:71px;
+	margin:0 auto;
+}
+
+.headimg .headimgwelcome .headimgwelcomea img{
+	width:205px;
+	height:59px;
+	float:left;
+}
+.headimg .headimgwelcome .welcome{
+	width:135px;
+	height:59px;
+	float:left;
+	text-align: center;
+	line-height: 59px;
+	font-size:23px;
+}
+.headimg .headimgwelcome .welcometwo{
+	float:right;
+	width:197px;
+	height:33px;
+	padding-top: 35px;
+	padding-left: 24px;
+	
+}
+.headimg .headimgwelcome .welcometwo a{
+	color:#3581E0;
+}
+.main{
+	padding-top:40px; 
+	width:100%;
+	height:648px;
+	background:url(../img/img/bj.png) repeat;
+}
+.main .content{
+	width:1127px;
+	height:540px;
+	border:1px solid #999;
+	background:paleturquoise;
+	margin:0 auto;
+}
+.main .content .mainleft{
+	width:683px;
+	height:540px;
+	background:yellow;
+	float:left;
+	
+}
+.main .content .mainright{
+	padding-top:107px;
+	padding-left:65px;
+	float:left;
+	width:379px;
+	height:403px;
+	border-left:1px solid #E1E1E3;
+}
+.main .content .mainright img{
+	
+	width:404px;
+	height:540px;
+	border-left:1px solid #E1E1E3;
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,231 @@
+@charset "utf-8";
+*{
+	margin:0px;
+	padding:0px;
+}
+html,body,ul,li,ol,dl,dd,dt,p,h1,h2,h3,h4,h5,h6,form,fieldset,legend,img{margin:0;padding:0;}
+fieldset,img{border:none;}
+img{display: block;}
+address,caption,cite,code,dfn,th,var{font-style:normal;font-weight:normal;}
+ul,ol{list-style:none;}
+body{color:#333;font:12px/20px "SimSun","����","Arial Narrow",HELVETICA;background:#fff; overflow-y:scroll; overflow-x:hidden;}
+a{color:#666;text-decoration:none;}
+a:visited{color:#666;}
+a:hover,a:active,a:focus{color:#ff8400;text-decoration:none;}
+html,body{
+	width:100%;
+	height:100%;
+	color: #343841;
+}
+
+#head,#nav,#navlist{
+	width:100%;
+}
+#head .header,#nav .navs,#navlist .list{
+	margin:0 auto;
+}
+#head,#head .header,#head .header .headerone,#head .header .headertwo li,
+#head .header .headertwo .active{
+	height:30px;
+}
+#head{
+	background:#F7F7F7;
+}
+#head .header{
+	width:1263px;
+}
+#head .header .headerone{
+	display: inline-block;
+	width:114px;
+	text-align: center;
+	line-height: 30px;
+}
+#head .header .headertwo{
+	float:right;
+}
+#head .header .headertwo li{
+	margin-right:11px;
+	float:left;
+	line-height: 30px;
+}
+#head .header .headertwo .active{
+	position:relative;
+	text-align: center;
+	width:75px;
+}
+#head .header .headertwo .actives{
+	margin:0px;
+}
+#head .header .headertwo .active .out{
+	width:340px;
+	height:70px;
+	display: none;
+	position:absolute;
+	padding-top:10px;
+	background:#FFFFFF;
+}
+#head .header .headertwo .active .out img{
+	display: inline-block;
+	width:60px;
+	height:50px;
+	float:left;
+}
+#head .header .headertwo .activec .out span{
+	width:150px;
+	height:80px;
+	line-height: 80px;
+	float:left;
+}
+.headimg{
+	width:100%;
+	height:88px;
+	background:#FFFFFF;
+}
+.headimg .headimgwelcome{
+	padding-top: 17px;
+	padding-left: 41px;
+	width:1222px;
+	height:71px;
+	margin:0 auto;
+}
+
+.headimg .headimgwelcome .headimgwelcomea img{
+	width:205px;
+	height:59px;
+	float:left;
+}
+.headimg .headimgwelcome .welcome{
+	width:135px;
+	height:59px;
+	float:left;
+	text-align: center;
+	line-height: 59px;
+	font-size:23px;
+}
+.login{
+	width:100%;
+	height:470px;
+	background: url(../img/img/登录_r9_c1.png) repeat-x;
+}
+.login .loginmain{
+	
+	width:1263px;
+	margin:0 auto;
+	height:470px;
+}
+.login .loginmain .loginimg{
+	width:543px;
+	height:398px;
+	padding-left: 102px;
+	padding-top:72px;
+	float:left;
+}
+.login .loginmain .loginimg .loginimgimg{
+	width:448px;
+	height:336px;
+}
+.login .loginmain .logincontent{
+	width:618px;
+	height:470px;
+	float: left;
+}
+.login .loginmain .logincontent .ps{
+	padding-left: 36px;
+	width:582px;
+	height:69px;
+	position:relative;
+}
+.login .loginmain .logincontent .ps .p1{
+	text-align: center;
+	font-size: 18px;
+	line-height: 69px;
+	width:377px;
+	height:69px;
+	float:left;
+}
+.login .loginmain .logincontent .ps .p2{
+	
+	text-align: center;
+	font-size: 12px;
+	line-height: 69px;
+	width:82px;
+	height:69px;
+	float:left;
+}
+.login .loginmain .logincontent .ps .p2 a{
+	color:#3581E0;
+}
+.login .loginmain .logincontent .ps .sanjiao{
+	position:absolute;
+	left:223px;
+	top:49px;
+	height:20px;
+	width:38px;
+}
+.login .loginmain .logincontent .input{
+	padding-left:81px;
+	padding-top: 61px;
+	width:404px;
+	height:285px;
+	border:1px solid #E3E3E5;
+	background: #FFFFFF;
+}
+.login .loginmain .logincontent .input ul{
+	width:340px;
+}
+.login .loginmain .logincontent .input ul li{
+	margin-bottom: 18px;
+}
+
+.login .loginmain .logincontent #userName{
+	border:1px solid #DCDBD9;
+	width:286px;
+	height:40px;
+	padding-left:54px; ;
+	background:url(../img/img/登录_r10_c12.png) no-repeat left;
+}
+.login .loginmain .logincontent #pwd{
+	border:1px solid #DCDBD9;
+	width:286px;
+	height:40px;
+	padding-left:54px; 
+	background:url(../img/img/sdascac.png) no-repeat left;
+}
+.login .loginmain .logincontent .searchthree{
+	width:340px;
+	height:15px;
+}
+.login .loginmain .logincontent .searchthree{
+	color:#999;
+}
+.login .loginmain .logincontent .searchthree span{
+	float:right;
+}
+.login .loginmain .logincontent .searchthree span a{
+	color:#999;
+}
+.login .loginmain .logincontent .searchthree span a:hover{
+	color:#FF7D01;
+}
+.login .loginmain .logincontent .input .searchfour{
+	text-align: center;
+	line-height: 48px;
+	width:340px;
+	background:#FF7D01;
+}
+.login .loginmain .logincontent .input .searchfour a{
+	color:#FFFFFF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
